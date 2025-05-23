@@ -13,7 +13,7 @@ An automated bot for mining Uranium tokens from the [GetUranium](https://www.get
 
 ## Register
 
-- Link : https://www.geturanium.io?ref=0x2be9dcfabe616c75813c28855fc2b0cbf85ca77e
+- Link : https://www.geturanium.io?ref=0x03f11c992c6b93829bb09e354e3a5aeb5b7da5d8
 
 ## Prerequisites
 
