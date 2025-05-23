@@ -8,7 +8,7 @@ require('dotenv').config();
 
 const screen = blessed.screen({
   smartCSR: true,
-  title: ' 🍉🍉🍉 19Seniman from Insider - PLEASE SUPPORT PALESTINE ON SOCIAL MEDIA 🍉🍉🍉'
+  title: ' 🍉🍉 PLEASE SUPPORT PALESTINE ON SOCIAL MEDIA 🍉🍉'
 });
 
 const walletRefs = [];
@@ -105,7 +105,7 @@ const createNoteBox = (bannerHeight) => {
     left: 'center',
     width: '100%',
     height: 1,
-    content: '{white-fg}Join Us: {cyan-fg}🍉🍉🍉🍉🍉{/cyan-fg}{/white-fg}',
+    content: '{white-fg}Join Us: {cyan-fg}https://t.me/Raga19f{/cyan-fg}{/white-fg}',
     align: 'center',
     tags: true,
     style: {
