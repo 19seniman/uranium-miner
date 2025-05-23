@@ -24,12 +24,12 @@ An automated bot for mining Uranium tokens from the [GetUranium](https://www.get
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/vikitoshi/Uranium-Auto-Bot.git
+git clone https://github.com/19seniman/uranium-miner.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd Uranium-Auto-Bot
+cd uranium-miner
 ```
 
 3. Install dependencies:
@@ -39,13 +39,11 @@ npm install
 
 ## Configuration
 
-1. Create a `.env` file in the root directory based on the `.env.example`:
+1. fill your address on .env :
 ```
-BASE_URL=https://www.geturanium.io/
-MINING_INTERVAL=10000
-LOG_FILE=mining-logs.txt
+nano .env
 
-# Add as many wallets as you want
+Format : 
 WALLET_1=YOUR_WALLET_ADDRESS_1
 
 WALLET_2=YOUR_WALLET_ADDRESS_2
@@ -53,55 +51,24 @@ WALLET_2=YOUR_WALLET_ADDRESS_2
 # Add more wallets as needed...
 ```
 
-2. (Optional) Create a `proxies.txt` file with your proxies in the format:
+2. fill your proxy on proxies.txt format:
 ```
+Format :
 ip:port
 ip:port:username:password
 ```
 
 ## Usage
 
-Start the mining bot:
+Run bot:
 ```bash
 node index.js
 ```
 
-### Controls
-- Press `q`, `Escape`, or `Ctrl+C` to exit the application
-
-## Configuration Options
-
-| Option | Description | Default |
-|--------|-------------|---------|
-| BASE_URL | URL of the Uranium platform | https://www.geturanium.io/ |
-| MINING_INTERVAL | Time between mining operations (ms) | 10000 |
-| LOG_FILE | Name of the log file | mining-logs.txt |
-| WALLET_# | Wallet addresses to use | - |
-
-## Proxy Configuration
-
-The bot supports HTTP/HTTPS proxies to avoid IP restrictions. Add your proxies to the `proxies.txt` file, one proxy per line:
-
-```
-ip:port
-ip:port:username:password
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature/my-new-feature`
-5. Submit a pull request
 
 ## Disclaimer
 
 This tool is for educational purposes only. Use at your own risk. The developers assume no liability and are not responsible for any misuse or damage caused by this program.
-
-## Join Our Community
-
-Join us on Telegram: [AirdropInsiderID](https://t.me/AirdropInsiderID)
 
 ## License
 
