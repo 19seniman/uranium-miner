@@ -45,9 +45,7 @@ nano .env
 
 Format : 
 WALLET_1=YOUR_WALLET_ADDRESS_1
-
 WALLET_2=YOUR_WALLET_ADDRESS_2
-
 # Add more wallets as needed...
 ```
 
