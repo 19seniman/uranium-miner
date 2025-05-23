@@ -8,7 +8,7 @@ require('dotenv').config();
 
 const screen = blessed.screen({
   smartCSR: true,
-  title: 'URANIUM AUTO MINING - AIRDROP INSIDERS'
+  title: ' 🍉🍉🍉 19Seniman from Insider - PLEASE SUPPORT PALESTINE ON SOCIAL MEDIA 🍉🍉🍉'
 });
 
 const walletRefs = [];
