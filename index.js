@@ -61,12 +61,12 @@ const generateBannerText = (text, font = 'Standard') => {
 };
 
 const createBanner = async () => {
-  let bannerText = 'URANIUM AUTO MINING';
+  let bannerText = '🍉🍉PLEASE SUPPORT PALESTINE ON SOCIAL MEDIA🍉🍉';
   let asciiBanner;
 
   const maxWidth = screen.width - 4; 
   if (maxWidth < 40) {
-    bannerText = 'URANIUM MINING';
+    bannerText = 'URANIUM MINNER';
   } else if (maxWidth < 70) {
     bannerText = 'URANIUM MINING - AIRDROP';
   }
@@ -105,7 +105,7 @@ const createNoteBox = (bannerHeight) => {
     left: 'center',
     width: '100%',
     height: 1,
-    content: '{white-fg}Join Us: {cyan-fg}https://t.me/AirdropInsiderID{/cyan-fg}{/white-fg}',
+    content: '{white-fg}Join Us: {cyan-fg}🍉🍉🍉🍉🍉{/cyan-fg}{/white-fg}',
     align: 'center',
     tags: true,
     style: {
