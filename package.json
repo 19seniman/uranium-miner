@@ -1,5 +1,5 @@
 {
-    "name": "uranium-auto-bot",
+    "name": "uranium-minner",
     "version": "1.0.0",
     "description": "An automated bot for mining Uranium tokens from the GetUranium platform",
     "main": "index.js",
@@ -9,7 +9,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/vikitoshi/Uranium-Auto-Bot.git"
+      "url": "git+https://github.com/19seniman/uranium-miner.git"
     },
     "keywords": [
       "uranium",
@@ -22,9 +22,9 @@
     "author": "Airdrop Insiders",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/vikitoshi/Uranium-Auto-Bot/issues"
+      "url": "https://github.com/19seniman/uranium-miner.git/issues"
     },
-    "homepage": "https://github.com/vikitoshi/Uranium-Auto-Bot#readme",
+    "homepage": "https://github.com/19seniman/uranium-miner.git#readme",
     "dependencies": {
       "axios": "^1.6.0",
       "blessed": "^0.1.81",
